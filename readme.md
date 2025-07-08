@@ -3,6 +3,7 @@
 
 🔗 **To access screen recordings of the functionalities:**  
   go to media folder and access the screen recordings
+  [https://SAMPREETHI26.github.io/Consecure/](https://SAMPREETHI26.github.io/Consecure/)
 
 ---
 
@@ -264,7 +265,7 @@ Use `.env` file or bind in docker-compose.
 **Sampreethi Y**  
 - BTech CSE, PES University  
 - [GitHub](https://github.com/SAMPREETHI26)  
-- [LinkedIn](https://linkedin.com/in/sampreethi)
+- [LinkedIn](https://linkedin.com/in/sampreethiy26)
 
 ---
 
