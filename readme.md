@@ -1,9 +1,8 @@
 # 📘 Cyber Threat Intelligence Dashboard
  A ML-powered threat intelligence dashboard with real-time WebSocket updates, full REST API support, user authentication, and a React-based frontend. It allows security analysts to register, log in, analyze cyber threats, and visualize them in real-time.
 
-🔗 **Use this link to access screen recordings of the functionalities:**  
-[https://SAMPREETHI26.github.io/Consecure/](https://SAMPREETHI26.github.io/Consecure/)
-or u can go to media folder and access the screen recording if the above one is not accessible
+🔗 **To access screen recordings of the functionalities:**  
+  >> go to media folder and access the screen recording if the above one is not accessible
 
 ---
 
