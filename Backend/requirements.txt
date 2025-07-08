@@ -1,0 +1,14 @@
+flask
+flask-restful
+flask_sqlalchemy
+psycopg2-binary
+pandas
+scikit-learn
+flask-cors
+python-dotenv
+Flask-SocketIO
+eventlet
+numpy
+joblib
+pytest
+pytest-flask

@@ -1,0 +1,128 @@
+/* Reset defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('frontend\src\background.jpg'); /* Replace this */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  color: #fff; /* light text for contrast */
+}
+
+/* Dark overlay to improve text readability */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+/* Root container styling */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  min-height: 100%;
+}
+
+/* Optional container for your app content */
+.container {
+  background-color: rgba(255, 255, 255, 0.9); /* white, slightly transparent */
+  color: #222; /* dark text */
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: #111;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Form inputs & buttons */
+textarea, input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1.8px solid #ccc;
+  font-family: inherit;
+  color: #111;
+  resize: vertical;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+button:disabled {
+  background-color: #a5b4fc;
+  cursor: not-allowed;
+}
+
+/* Messages */
+.error-message {
+  color: #dc2626;
+  font-weight: 600;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+.success-message {
+  color: #16a34a;
+  font-weight: 600;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  #root {
+    padding: 20px 12px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
