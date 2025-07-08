@@ -2,7 +2,7 @@
  A ML-powered threat intelligence dashboard with real-time WebSocket updates, full REST API support, user authentication, and a React-based frontend. It allows security analysts to register, log in, analyze cyber threats, and visualize them in real-time.
 
 🔗 **To access screen recordings of the functionalities:**  
-  >> go to media folder and access the screen recording if the above one is not accessible
+  go to media folder and access the screen recordings
 
 ---
 
@@ -10,6 +10,7 @@
 
 ```
 Consecure/
+├──media #this has all the screenrecordings of the functionality
 ├── Backend/
 │   ├── app/
 │   │   ├── __init__.py           # Flask app factory
