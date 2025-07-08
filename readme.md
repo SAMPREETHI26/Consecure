@@ -34,6 +34,11 @@ Consecure/
 
 ---
 
+## 💡 Tech Stack 
+
+I chose **React** for the frontend because it made it easy to build a fast and interactive user interface. For the backend, I used **Flask** since it's lightweight and simple to set up, which helped me handle APIs and connect everything smoothly. I went with **PostgreSQL** as the database because it works well for handle structured data. Overall, this stack helped me build the project faster, keep things organized, and make sure everything works together without issues.
+
+
 ## ⚙️ Setup Instructions
 
 ### 🔹 Using Docker (Recommended)
