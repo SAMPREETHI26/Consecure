@@ -1,6 +1,6 @@
 # 📘 Cyber Threat Intelligence Dashboard
 
-**secure** is a ML-powered threat intelligence dashboard with real-time WebSocket updates, full REST API support, user authentication, and a React-based frontend. It allows security analysts to register, log in, analyze cyber threats, and visualize them in real-time.
+**** A ML-powered threat intelligence dashboard with real-time WebSocket updates, full REST API support, user authentication, and a React-based frontend. It allows security analysts to register, log in, analyze cyber threats, and visualize them in real-time.
 
 ---
 
